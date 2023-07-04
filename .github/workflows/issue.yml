@@ -1,0 +1,8 @@
+name: echo issue
+on: workflow_dispatch
+jobs:
+  echo-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lint
+        run: echo "issue"
